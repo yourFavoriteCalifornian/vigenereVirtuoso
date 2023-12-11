@@ -58,6 +58,7 @@ This program was coded on a windows machine. Using VS Code on Windows with an Ub
 To do so, here's how terminal was configured:
 
 user@PC:/storagePath/specified_folder$ g++ case3.cpp -o c3
+
 user@PC:/storagePath/specified_folder$ ./c3
 
 Thank you :)
