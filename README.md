@@ -13,12 +13,14 @@ There are 4 steps in this program:
 Here are the steps incolved:
 
 •  User Input
+
   The program starts by prompting the user to enter following 2 string values:
     plaintext
     keyword.
   both mentioned are read using the “std::cin >>” operator with spaces to allow for input. (i.e. std::cout << "statement statement:_" << std::endl;)
 
 •  Encryption Function
+
   The encrypt function utilizes the plaintext and keyword inputted in the main function.
   It initializes an empty string ciphertext to store the result and sets the index j for the keyword to 0. ( std::string result = ""; )
   It iterates through each character in the plaintext.
@@ -30,6 +32,7 @@ Here are the steps incolved:
   Finally, it returns the encrypted ciphertext.
 
 •  Decryption Function
+
   The decrypt function takes the ciphertext and the keyword as input.
   It initializes an empty string plaintext to store the result and sets the index j for the keyword to 0. ( std::string newResult = ""; )
   It iterates through each character in the ciphertext.
@@ -41,6 +44,7 @@ Here are the steps incolved:
   Finally, it returns the decrypted plaintext.
 
 •  Main function
+
   The main program calls the encrypt function to encrypt the entered plaintext using the provided keyword.
   It then prints the encrypted message.
   Next, it calls the decrypt function to decrypt the ciphertext using the same keyword.
